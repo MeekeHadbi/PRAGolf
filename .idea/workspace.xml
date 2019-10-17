@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077fa3fb-1bf8-406c-938d-6e497aba4a2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PRAGolf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRAGolf/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/src/Controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRAGolf/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="077fa3fb-1bf8-406c-938d-6e497aba4a2e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/PRAGolf/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="303">
-              <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+              <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -271,12 +259,12 @@
       <workItem from="1571123923212" duration="4811000" />
       <workItem from="1571297503708" duration="481000" />
       <workItem from="1571298011145" duration="2260000" />
-      <workItem from="1571301814045" duration="2935000" />
+      <workItem from="1571301814045" duration="3546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10487000" />
+    <option name="totallyTimeSpent" value="11098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="793" y="0" width="814" height="867" extended-state="0" />
@@ -337,7 +325,7 @@
     <entry file="file://$PROJECT_DIR$/PRAGolf/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+          <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
         </state>
       </provider>
     </entry>
