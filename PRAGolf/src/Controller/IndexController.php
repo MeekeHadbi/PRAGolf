@@ -29,7 +29,7 @@ class IndexController extends AbstractController
             $em=$this->getDoctrine()->getManager();
             $em->persist($upload);
             $em->flush();
-            return $this->redirectToRoute('index');
+            return $this->redirectToRoute('xlsRead');
         }
         return $this->render('index/index.html.twig',array(
                 'form'=>$form->createView(),

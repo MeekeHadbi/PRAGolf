@@ -88,6 +88,7 @@ class XlsToJsonController implements IReadFilter
             JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
         fclose($jsonpart);
         return new Response(dd($parties));
+
     }
     public function readCell($column, $row, $worksheetName = '')
     {
