@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le :  Dim 20 oct. 2019 à 13:57
+-- Généré le :  Dim 20 oct. 2019 à 14:05
 -- Version du serveur :  5.7.24
 -- Version de PHP :  7.2.19
 
@@ -125,17 +125,6 @@ CREATE TABLE `upload` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Déchargement des données de la table `upload`
---
-
-INSERT INTO `upload` (`id`, `name`, `lieu`, `start`) VALUES
-(1, '7f13809dee641be3137e8778dc203a2b.xlsx', 'melun', '00:00:00'),
-(2, '2302aeae54b70e567ce15bcc5cd88b22.xlsx', 'melun', '00:00:00'),
-(3, '56276462710ded29db868d9fe0763ee2.xlsx', 'melun', '00:00:00'),
-(4, '37511ee0558e56507156556b7d00fce6.xlsx', 'melun', '00:00:00'),
-(5, '5b3fd925fe28ab16a457ca7db42a0c93.xlsx', 'melun', '00:00:00');
-
---
 -- Index pour les tables déchargées
 --
 
@@ -231,7 +220,7 @@ ALTER TABLE `trou`
 -- AUTO_INCREMENT pour la table `upload`
 --
 ALTER TABLE `upload`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
