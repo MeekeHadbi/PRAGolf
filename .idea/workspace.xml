@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="077fa3fb-1bf8-406c-938d-6e497aba4a2e" name="Default Changelist" comment="">
+      <change afterPath="C:/Program Files/Symfony/sftu/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="C:/Program Files/Symfony/sftu/src/Utils/C.php" afterDir="false" />
+      <change afterPath="C:/Program Files/Symfony/sftu/src/Utils/Cbis.php" afterDir="false" />
+      <change afterPath="C:/Program Files/Symfony/sftu/src/Utils/tabTest.php" afterDir="false" />
+      <change afterPath="C:/Program Files/Symfony/sftu/tests/Utils/CBisTest.php" afterDir="false" />
+      <change afterPath="C:/Program Files/Symfony/sftu/tests/Utils/CTest.php" afterDir="false" />
+      <change beforePath="C:/Program Files/Symfony/sftu/src/Utils/UtilHtml.php" beforeDir="false" afterPath="C:/Program Files/Symfony/sftu/src/Utils/UtilHtml.php" afterDir="false" />
+      <change beforePath="C:/Program Files/Symfony/sftu/tests/Utils/UtilHtmlTest.php" beforeDir="false" afterPath="C:/Program Files/Symfony/sftu/tests/Utils/UtilHtmlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PRAGolf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PRAGolf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PRAGolf/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PRAGolf/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PRAGolf/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRAGolf/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/src/Controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRAGolf/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PRAGolf/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/PRAGolf/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,44 +29,96 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/PRAGolf/composer.json</pharConfigPath>
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PRAGolf$XlstoJsonControllerTest.xml" NAME="XlstoJsonControllerTest Coverage Results" MODIFIED="1571531173750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PRAGolf" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PRAGolf/templates/base.html.twig">
+        <entry file="file://$PROJECT_DIR$/PRAGolf/src/Controller/XlsToJsonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-586">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="60">
+              <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#115#151#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/PRAGolf/src/Repository/UploadRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PRAGolf/src/Controller/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="14" />
               <folding>
                 <element signature="e#34#56#0#PHP" expanded="true" />
-                <element signature="e#928#935#1#PHP" expanded="true" />
-                <element signature="e#977#1000#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PRAGolf/tests/XlstoJsonControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#109#148#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Symfony/sftu/tests/Utils/UtilHtmlTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
+              <folding>
+                <element signature="e#29#52#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Symfony/sftu/src/Utils/UtilHtml.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Symfony/sftu/src/Utils/C.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fil</find>
+      <find>return</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,16 +127,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PRAGolf/src/Entity/Trou.php" />
-        <option value="$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig" />
-        <option value="$PROJECT_DIR$/PRAGolf/config/services.yaml" />
         <option value="$PROJECT_DIR$/PRAGolf/src/Form/UploadType.php" />
         <option value="$PROJECT_DIR$/PRAGolf/src/Entity/Upload.php" />
         <option value="$PROJECT_DIR$/PRAGolf/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/PRAGolf/src/Controller/ToJsonController.php" />
+        <option value="$PROJECT_DIR$/../Mission1/spreadSheetXlsToJson.php" />
+        <option value="$PROJECT_DIR$/PRAGolf/src/Perso/XlsToJsonController.php" />
+        <option value="$PROJECT_DIR$/PRAGolf/templates/json/json.html.twig" />
+        <option value="$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig" />
+        <option value="$PROJECT_DIR$/PRAGolf/src/Perso/XlsToJsonPerso.php" />
+        <option value="$PROJECT_DIR$/PRAGolf/src/Controller/XlsToJsonPerso.php" />
         <option value="$PROJECT_DIR$/PRAGolf/src/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/PRAGolf/src/Repository/UploadRepository.php" />
+        <option value="$PROJECT_DIR$/PRAGolf/config/services.yaml" />
+        <option value="$PROJECT_DIR$/PRAGolf/phpunit.xml.dist" />
+        <option value="$PROJECT_DIR$/PRAGolf/tests/XlstoJsonControllerTest.php" />
+        <option value="$PROJECT_DIR$/PRAGolf/src/Controller/XlsToJsonController.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/PRAGolf/vendor/doctrine/doctrine-cache-bundle" />
       <path value="$PROJECT_DIR$/PRAGolf/vendor/twig/twig" />
@@ -179,13 +262,18 @@
       <path value="$PROJECT_DIR$/PRAGolf/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/PRAGolf/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/PRAGolf/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/PRAGolf/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/PRAGolf/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/PRAGolf/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/PRAGolf/vendor/psr/simple-cache" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="814" />
-    <option name="height" value="867" />
+    <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -207,28 +295,7 @@
               <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
               <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
               <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +315,7 @@
               <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
               <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
@@ -259,22 +326,7 @@
             </path>
             <path>
               <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRAGolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="PRAGolf" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -285,10 +337,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PRAGolf/phpunit.xml.dist" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\SIO22\PRAGolf\PRAGolf\src\Controller" />
+      <recent name="C:\laragon\www\SIO22\PRAGolf\PRAGolf\templates\index" />
+      <recent name="C:\laragon\www\SIO22\PRAGolf\PRAGolf\src\Perso" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,6 +361,37 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.XlstoJsonControllerTest.testNbJoueur">
+    <configuration name="UtilHtmlTest.testCasNormal" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\UtilHtmlTest" file="C:/Program Files/Symfony/sftu/tests/Utils/UtilHtmlTest.php" method="testCasNormal" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UtilHtmlTest.testCasUnElement" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\UtilHtmlTest" file="C:/Program Files/Symfony/sftu/tests/Utils/UtilHtmlTest.php" method="testCasUnElement" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XlstoJsonControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\XlstoJsonControllerTest" file="$PROJECT_DIR$/PRAGolf/tests/XlstoJsonControllerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XlstoJsonControllerTest.testNbJoueur" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\XlstoJsonControllerTest" file="$PROJECT_DIR$/PRAGolf/tests/XlstoJsonControllerTest.php" method="testNbJoueur" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XlstoJsonControllerTest.testReadCell" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\XlstoJsonControllerTest" file="$PROJECT_DIR$/PRAGolf/tests/XlstoJsonControllerTest.php" method="testReadCell" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.XlstoJsonControllerTest.testNbJoueur" />
+        <item itemvalue="PHPUnit.XlstoJsonControllerTest.testReadCell" />
+        <item itemvalue="PHPUnit.XlstoJsonControllerTest" />
+        <item itemvalue="PHPUnit.UtilHtmlTest.testCasNormal" />
+        <item itemvalue="PHPUnit.UtilHtmlTest.testCasUnElement" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -318,17 +409,73 @@
       <workItem from="1571301814045" duration="3546000" />
       <workItem from="1571339575441" duration="6006000" />
       <workItem from="1571384663419" duration="7762000" />
+      <workItem from="1571469934152" duration="11275000" />
+      <workItem from="1571484121002" duration="32585000" />
+      <workItem from="1571557518245" duration="13298000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 08m 39s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 09m 36s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 10m 40s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 11m 32s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 13m 02s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 18m 46s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 19m 26s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 21m 57s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 22m 08s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="XlstoJsonControllerTest_testNbJoueur - 2019.10.20 at 12h 23m 30s.xml">
+      <configuration name="XlstoJsonControllerTest.testNbJoueur" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24866000" />
+    <option name="totallyTimeSpent" value="82024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20115681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25485438" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32970452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968896" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32348368" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008091" side_tool="true" weight="0.32970452" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22815534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,99 +488,355 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3243607" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32348368" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Trou.php" />
-    <entry file="file://$PROJECT_DIR$/PRAGolf/vendor/ocramius/package-versions/src/PackageVersions/Versions.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/public/assets/css/fontawesome-all.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/public/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/config/services.yaml">
+    <entry file="file://$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/public/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/vendor/symfony/form/FormTypeInterface.php">
+    <entry file="file://$PROJECT_DIR$/PRAGolf/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/vendor/symfony/form/AbstractType.php">
+    <entry file="file://$PROJECT_DIR$/PRAGolf/templates/index/json.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/goodmovie/templates/internaute/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/goodmovie/templates/internaute/ajout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/goodmovie/templates/index/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PRAGolf/src/Form/UploadType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="561">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#28#50#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Upload.php">
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Controller/ToJsonController.php" />
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/DecalageTrouPartie.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Golf.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Parcours.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Trou.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Partie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Competition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/goodmovie/src/Controller/ListeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/goodmovie/src/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/goodmovie/src/Controller/InternauteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/goodmovie/src/Repository/InternauteRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/doctrine/src/Repository/ProductRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/doctrine/src/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/legacy/tests/Devine/DevineTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/doctrine/src/Controller/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="18" selection-end-column="77" />
+          <folding>
+            <element signature="e#34#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/phpunit.phar/php-code-coverage/CodeCoverage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PRAGolf/src/Controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="e#34#56#0#PHP" expanded="true" />
-            <element signature="e#928#935#1#PHP" expanded="true" />
-            <element signature="e#977#1000#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/templates/index/index.html.twig">
+    <entry file="phar://$PROJECT_DIR$/PRAGolf/bin/phpunit.phar/phpunit.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="349">
+          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PRAGolf/templates/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/PRAGolf/vendor/symfony/phpunit-bridge/bin/simple-phpunit">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state>
           <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#26#255#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/vendor/symfony/phpunit-bridge/bin/simple-phpunit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/vendor/phpoffice/phpspreadsheet/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/bin/phpunit">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/PRAGolf/bin/phpunit.phar/.phar/stub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/PRAGolf/bin/phpunit.phar/phpunit/Framework/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ManagerRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Repository/PartieRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Repository/TrouRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/sftu/tests/Utils/CTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/sftu/src/Utils/C.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/sftu/src/Utils/UtilHtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Symfony/sftu/tests/Utils/UtilHtmlTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <element signature="e#29#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Entity/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/public/xlsToJson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Migrations/Version20191018083747.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Migrations/Version20191018084533.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/tests/XlstoJsonControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#109#148#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Repository/UploadRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#34#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Migrations/Version20191019144116.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRAGolf/src/Controller/XlsToJsonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+          <folding>
+            <element signature="e#115#151#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

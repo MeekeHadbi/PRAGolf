@@ -107,7 +107,16 @@
       <path value="$PROJECT_DIR$/PRAGolf/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/PRAGolf/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/PRAGolf/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/PRAGolf/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/PRAGolf/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/PRAGolf/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/PRAGolf/vendor/psr/simple-cache" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="PHPUNIT_PHAR" configuration_file_path="$PROJECT_DIR$/PRAGolf/phpunit.xml.dist" custom_loader_path="$PROJECT_DIR$/PRAGolf/bin/phpunit.phar" phpunit_phar_path="$PROJECT_DIR$/PRAGolf/bin/phpunit" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
 </project>

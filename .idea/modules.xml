@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PRAGolf.iml" filepath="$PROJECT_DIR$/.idea/PRAGolf.iml" />
+      <module fileurl="file://C:/Program Files/Symfony/sftu/.idea/sftu.iml" filepath="C:/Program Files/Symfony/sftu/.idea/sftu.iml" />
     </modules>
   </component>
 </project>

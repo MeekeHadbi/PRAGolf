@@ -4,8 +4,13 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/PRAGolf/src" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/PRAGolf/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/PRAGolf/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/PRAGolf/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/PRAGolf/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/PRAGolf/vendor/psr/simple-cache" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="sftu" />
   </component>
 </module>
