@@ -12,10 +12,12 @@ use App\Repository\UploadRepository;
 use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
 use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
 use App\Entity\Upload;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Doctrine\ORM\EntityRepository;
-class XlsToJsonController implements IReadFilter
+use Spipu\Html2Pdf\Html2Pdf;
+class XlsToJsonController extends AbstractController implements IReadFilter
 {
     /**
      * @Route("/xlsRead", name="xlsRead")
@@ -26,7 +28,7 @@ class XlsToJsonController implements IReadFilter
         $reader = new Xlsx();
         $fileName = $upload->getName();//on recupere le nom de l'id
         $path = "../public/uploads/" . $fileName;
-        $reader->setReadFilter(new XlsToJsonController());
+        $reader->setReadFilter($this);
         $reader->setReadDataOnly(true);
         /**  Load only the rows and columns that match our filter to Spreadsheet  **/
         $spreadsheet = $reader->load($path);
@@ -53,8 +55,7 @@ class XlsToJsonController implements IReadFilter
         foreach ($infoJoueur as $couleurRep => $joueur) { // Tri de joueurs; créations des parties
 
             $nbJoueursCouleur = count($joueur);
-            $addJoueurs = false;
-            unset($joueurToAdd);//permet de changer le nom du joueur à chaque tour en  détruisant la valeur précédente
+            $joueurToAdd=[];
 
             foreach ($joueur as $nomJoueur) {//Pour chaque joueur en fonction du nomJoueur
                 $joueurToAdd[] = $nomJoueur;//on ajoute le nom du joueur
@@ -63,38 +64,44 @@ class XlsToJsonController implements IReadFilter
                     //si il reste 4 ou 2 joueur alors on creer des groupe de 2
                     $parties[] = array($couleurRep, $joueurToAdd);
                     $nbJoueursCouleur = $nbJoueursCouleur - 2;
-                    unset($joueurToAdd);
+                    $joueurToAdd=[];
                 } elseif ($nbJoueursCouleur == 3 && (count($joueurToAdd) == 3)) {
 
                     $parties[] = array($couleurRep, $joueurToAdd);
                     $nbJoueursCouleur = $nbJoueursCouleur - 3;
-                    unset($joueurToAdd);
+                    $joueurToAdd=[];
                 } elseif ($nbJoueursCouleur > 4 && (count($joueurToAdd) > 2)) {
                     //DEBUT:SI il y'a plus de quatre joueurs par couleur on fait des groupes de trois
 
                     $parties[] = array($couleurRep, $joueurToAdd);
                     $nbJoueursCouleur = $nbJoueursCouleur - 3;
-                    unset($joueurToAdd);
+                    $joueurToAdd=[];
                 }
             }
         }
-        $nomCompet = $dataArray[10][$nom]; // Récupère le nom de la compétition
-        $nbJoueurs = $dataArray[166][$nom]; // Récupère le nombre de joueurs
-        $dateCompet = $dataArray[63][$date]; // Récupère la date de la compétition
-        array_push($parties, $nomCompet,$dateCompet, $nbJoueurs);
-        echo "<pre>";
         $jsonpart = fopen('xlsToJson.json', 'w+');
         fwrite($jsonpart, json_encode($parties, JSON_UNESCAPED_UNICODE |
             JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
         fclose($jsonpart);
-        return new Response(dd($parties));
+        $json = file_get_contents("xlsToJson.json");
+        $trous = [14, 15, 13, 17, 17, 16, 14, 19, 12, 15, 14, 18, 16, 13, 14, 17, 13, 15];
+        $contenu= json_decode($json);
+        $template = $this->renderView('cadence_de_jeu/index.html.twig', [
+            'contenu' => $contenu,
+            'trous' => $trous,
+        ]);
 
+        $pdfFile = new Html2Pdf('L', 'A4', 'fr');
+        $pdfFile->writeHTML($template);
+        $pdfFile->output("compet.pdf");
     }
+
     public function readCell($column, $row, $worksheetName = '')
     {
         // Read title row and rows 20 - 30
         return ($row > 9 && $row < 175) ? true : false;
     }
+
 }
 
 

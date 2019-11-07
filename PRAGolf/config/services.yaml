@@ -29,3 +29,4 @@ services:
     # please note that last definitions always *replace* previous ones
     PhpOffice\PhpSpreadsheet\Reader\IReadFilter: ~
     PhpOffice\PhpSpreadsheet\Reader\Xlsx: ~
+    Spipu\Html2Pdf\Html2Pdf: ~
